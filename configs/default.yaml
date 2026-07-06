@@ -1,0 +1,20 @@
+data:
+  kitti_path: "D:/redko/practice/kitti"
+  coco_path: "D:/redko/practice/kitti_coco"
+
+training:
+  epochs: 4
+  batch_size: 4
+  seed: 42
+
+models:
+  yolo:
+    lr: 0.001
+  faster_rcnn:
+    lr: 0.0001
+  ssd:
+    lr: 0.0001
+  efficientdet:
+    lr: 0.0001
+  detr:
+    lr: 0.00005

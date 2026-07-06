@@ -1,0 +1,14 @@
+*.pth
+*.pt
+*.pyc
+pycache/
+data/raw/
+data/processed/
+venv/
+.venv/
+.vscode/
+.idea/
+*.log
+.DS_Store
+runs/
+experiments/
